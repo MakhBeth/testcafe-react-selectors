@@ -1,6 +1,6 @@
 {
   "name": "@credimi/testcafe-react-selectors",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "ReactJS selectors for TestCafe",
   "repository": "https://github.com/MakhBeth/testcafe-react-selectors",
   "main": "lib/index",
