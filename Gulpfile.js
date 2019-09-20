@@ -89,7 +89,7 @@ gulp.task('test', ['build', 'build-test-app', 'build-nextjs-app'], function () {
             .then(testCafe => {
                 return testCafe.createRunner()
                     .src(files)
-                    .browsers(['chrome', 'firefox', 'ie'])
+                    .browsers(['chrome'])
                     .reporter('list')
                     .run({ quarantineMode: true });
             })
